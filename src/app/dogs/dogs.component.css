@@ -3,3 +3,16 @@ body {
     height: 100vh;
     width: 100%;
 }
+
+.principal-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.register-dogs {
+    background-color: #d3d3d3;
+    min-height: 700px;
+    min-width: 450px;
+    border-radius: 10px;
+}
+
