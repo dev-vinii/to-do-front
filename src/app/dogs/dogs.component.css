@@ -29,11 +29,15 @@ body {
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    display: inline-block;
+}
+
+.titles {
     display: flex;
     justify-content: center;
 }
 
-.list {
+.list-title {
     margin: 30px;
 }
 
