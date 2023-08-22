@@ -1,11 +1,28 @@
 <body>
-    <p>dogs works!</p>
     <div class="principal-content">
         <div class="register-dogs">
-            <label for="">Nome</label>
-            <input type="text">
-            <Label>Idade</Label>
-            <input type="text">
+            <form [formGroup]="myForm">
+                <div class="title">
+                    <h1>Cadastrar cachorro</h1>
+                </div>
+                <div class="input">
+                    <label for="">Nome</label>
+                    <input type="text" id="name" formControlName="name">
+                </div>
+                <div class="input">
+                    <Label>Raça</Label>
+                    <input type="text" id="breed" formControlName="breed">
+                </div>
+                <div class="input">
+                    <Label>Dono</Label>
+                    <input type="text" id="owner" formControlName="owner">
+                </div>
+                <div class="input">
+                    <Label>CPF</Label>
+                    <input type="text" id="document" formControlName="document">
+                </div>
+            </form>
+            <div class="button">Cadastrar</div>
         </div>
         <div class="dogs-list">teste</div>
     </div>
