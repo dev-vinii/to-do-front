@@ -39,6 +39,14 @@ body {
 
 .list-title {
     margin: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.list-data {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .title {
