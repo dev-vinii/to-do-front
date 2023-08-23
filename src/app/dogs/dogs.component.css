@@ -14,18 +14,18 @@ body {
 }
 
 .register-dogs {
-    background-color: #d3d3d3;
-    min-height: 450px;
-    min-width: 450px;
+    background-color: white;
+    min-height: 600px;
+    min-width: 600px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 .list-dogs {
-    background-color: #d3d3d3;
-    min-height: 450px;
-    min-width: 450px;
+    background-color: white;
+    min-height: 600px;
+    min-width: 600px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -55,17 +55,16 @@ body {
 
 .register-dogs input {
     margin: 20px;
-    border: none;
     background-color: white;
     border-radius: 10px;
     width: 300px;
     height: 30px;
     padding-left: 10px;
+    border-color: black;
 }
 
-.button {
+.button button{
     background-color: white;
-    border: none;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -76,4 +75,26 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
+    border-color: black;
 }
+
+@media (max-width: 1280px) and (min-width: 800px){
+    .register-dogs {
+        background-color: white;
+        min-height: 360px;
+        min-width: 400px;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .list-dogs {
+        background-color: white;
+        min-height: 360px;
+        min-width: 400px;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: inline-block;
+    }
+  }
