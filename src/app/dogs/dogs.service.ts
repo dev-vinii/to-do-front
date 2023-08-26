@@ -10,7 +10,11 @@ export class DogsService {
   constructor(private http: HttpClient) { }
 
   getAllDogs(): Observable<any>{
-    return this.http.get(`http://localhost:8080/animal`)
+    return this.http.get<any>(`http://localhost:8080/animal`)
+  }
+
+  postDogs(info: any): Observable<any> {
+    return this.http.post<any>(`http://localhost:8080/animal`, info)
   }
 
 }
